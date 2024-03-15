@@ -51,6 +51,10 @@ p {
   font-size: 15px;
 }
 
+.fa-regular, .far {
+  font-weight: 600;
+}
+
 @media screen and (max-width: 520px) {
   h1 {
     font-family: boldfont;
@@ -224,6 +228,26 @@ body {
 }
 .read-more-left-img {
   position: relative;
+}
+
+.read-more-before-dec {
+  color: #3368C6;
+}
+
+.read-more-section p, .read-more-section span {
+  color: #3368C6;
+}
+.read-more-section .setisfaction-div {
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 35px;
+  margin: 25px 0 25px 0;
+}
+.read-more-section .setisfaction-div span {
+  color: #031B4E;
+}
+.read-more-section .read-more-blog-img {
+  border-radius: 30px;
 }
 
 .cardiologist-img {
